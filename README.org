@@ -1,4 +1,4 @@
-* DONE Create some 'structure' for our player
+o* DONE Create some 'structure' for our player
 ** TODO Create structure for enemy
 *** TODO Create battle system
 
