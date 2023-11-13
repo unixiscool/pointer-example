@@ -8,12 +8,13 @@
 ******** TODO Create "CreatePlayer" function
 ********* TODO Create bussiness system
 ********** TODO Create save-game
+
 [[https://github.com/unixiscool][My github account]]
 
 #+begin_src
 ~source.cpp line 5-9: some 'structure' for our player
 #+end_src
 
-#+begin_src How to build project
-g++ source.cpp function.cpp header.h -o bin
+#+begin_src 
+How to build project -> g++ source.cpp function.cpp header.h -o bin
 #+end_src
