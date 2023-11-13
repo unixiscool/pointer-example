@@ -1,0 +1,7 @@
+* DONE Create some 'structure' for our player
+** TODO Create structure for enemy
+*** TODO Create battle system
+
+#+begin_src
+~source.cpp line 5-9: some 'structure' for our player
+#+end_src
