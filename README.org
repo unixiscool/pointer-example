@@ -2,6 +2,8 @@
 ** TODO Create structure for enemy
 *** TODO Create battle system
 
+[[https://github.com/unixiscool][My github account]]
+
 #+begin_src
 ~source.cpp line 5-9: some 'structure' for our player
 #+end_src
