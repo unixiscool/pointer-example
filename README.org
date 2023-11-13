@@ -1,6 +1,10 @@
-o* DONE Create some 'structure' for our player
-** TODO Create structure for enemy
-*** TODO Create battle system
+* DONE Create some 'structure' for our player
+** DONE Create function to init player
+*** DONE Create function to init enemy 
+**** DONE Create structure for enemy
+***** DONE Create battle system
+****** TODO Create "CreateEnemy" function
+******* TODO Create "CreatePlayer" function
 
 [[https://github.com/unixiscool][My github account]]
 
