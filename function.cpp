@@ -1,10 +1,9 @@
 #include "header.h"
 #include <cstdio>
 
-int Player(int *health, int *energy, int *count) { return *count; }
+int Player(int *health, int *energy, int *count, int* player_D) { return (*health, *energy, *count, *player_D); }
 
-int Enemy(int *health, int *energy, int *count) { return *count; }
-
+int Enemy(int *health, int *energy, int *count) { return (*health, *energy,*count); }
 bool Battle(int player[], int enemy[], char choose, bool win, int* money) {
   while (true) {
   srand (time(NULL));

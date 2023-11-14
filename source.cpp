@@ -1,6 +1,6 @@
 #include "header.h"
 #include <locale>
-int Player(int* health, int* energy, int* count);
+int Player(int* health, int* energy, int* count, int*);
 int Enemy(int *health, int *energy, int *count);
 bool Battle(int *player, int *enemy, char choose, bool win, int* money);
 int CreateEnemy(int *health, int *energy, int *count,
@@ -16,7 +16,7 @@ int money = 0;
 int* mP = &money; 
 bool (*B)(int *, int *, char, bool, int*) = Battle;
 int (*pE)(int *, int *, int *) = Enemy;
-int (*p)(int*,int*,int*) = Player; 
+int (*p)(int*,int*,int*, int*) = Player; 
 char choose;
 bool victory;
 int main() {
@@ -35,12 +35,12 @@ int main() {
   int count_arg = 3;
   int player_D = 10;
   
-  int player[3] = {health,energy,count_arg};//array of player
-  p(&player[0], &player[1], &player[2]); // передаем параметры
+  int player[4] = {health,energy,count_arg, player_D};//array of player
+  p(&player[0], &player[1], &player[2], &player[3]); // передаем параметры
   //structure player end
   
-  //printf("%d\n", enemy[0]); //выводим 0 элемент и получаем "150" в терминал, т.е число energy
-  int (*pCreateEnemy)(int *, int *, int *, int (*)(int *, int *, int *)) = CreateEnemy;
+  printf("%d\n", player[0]); //выводим 0 элемент и получаем "150" в терминал, т.е число energy
+  
   
   while (true) {
     //void
