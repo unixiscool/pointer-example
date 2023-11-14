@@ -3,9 +3,9 @@
 int Player(int* health, int* energy, int* count);
 int Enemy(int *health, int *energy, int *count);
 bool Battle(int *player, int *enemy, char choose, bool win, int* money);
-/*int CreateEnemy(int *health, int *energy, int *count,
+int CreateEnemy(int *health, int *energy, int *count,
                 int (*pP)(int *, int *, int *));
-*/
+
 // int CreateEnemy(int (*pP)(int *, int *, int *));
 // bool Battle(int* player, int* enemy, int enemyDamage, int playerDamage, char*
 // choose);
@@ -40,9 +40,10 @@ int main() {
   //structure player end
   
   //printf("%d\n", enemy[0]); //выводим 0 элемент и получаем "150" в терминал, т.е число energy
-  //int (*pCreateEnemy)(int *, int *, int *, int (*)(int *, int *, int *)) = CreateEnemy;
+  int (*pCreateEnemy)(int *, int *, int *, int (*)(int *, int *, int *)) = CreateEnemy;
+  
   while (true) {
-    
+    //void
   }
   return 0; 
 }

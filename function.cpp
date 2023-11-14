@@ -40,7 +40,7 @@ bool Battle(int player[], int enemy[], char choose, bool win, int* money) {
   return true;
 }
 
-/*int CreateEnemy(int *health, int *energy, int *count,
+int CreateEnemy(int *health, int *energy, int *count,
   int (*pP)(int *, int *, int *)) {
     return pP(health, energy,count);
-    }*/
+    
