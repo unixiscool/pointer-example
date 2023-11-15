@@ -5,7 +5,7 @@ int Player(int *health, int *energy, int *count, int* player_D) { return (*healt
 
 int Enemy(int *health, int *energy, int *count) {return (*health, *energy, *count);  }
 
-void Menu(int player[], int enemy[], char choose1, bool win, int* money, char choose, bool (*tmp)(int *, int *, char, bool, int* )) {
+void Menu(int player[], int enemy[], char choose1, bool win, int* money, char choose, bool (*tmp)(int* , int* , char, bool, int* )) {
   while (true) {
     printf("Что будем делать?\n"
 	   "1.Battle ");

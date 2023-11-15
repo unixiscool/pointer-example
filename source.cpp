@@ -23,8 +23,6 @@ int (*p)(int*,int*,int*, int*) = Player;
 //char (*pC)(char *) = Menu;
 void (*pM)(int*, int*, char, bool, int*, char, bool (*tmp)(int*, int*, char, bool, int* ));
 char choose;
-char choose2;
-char choose3;
 char* chP = &choose;
 bool victory;
 int main() {
@@ -51,7 +49,7 @@ int main() {
   
   while (true) {
     //Battle(player, enemy, choose, victory, mP);
-    pM(player, enemy, choose, victory, mP, choose, B(player, enemy, choose, victory, mP2));
+    pM(player, enemy, choose, victory, mP, choose, B);
   }
   return 0; 
 }
