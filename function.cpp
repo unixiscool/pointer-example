@@ -3,7 +3,18 @@
 
 int Player(int *health, int *energy, int *count, int* player_D) { return (*health, *energy, *count, *player_D); }
 
-int Enemy(int *health, int *energy, int *count) { return (*health, *energy,*count); }
+int Enemy(int *health, int *energy, int *count) {return (*health, *energy, *count);  }
+
+void Menu(int player[], int enemy[], char choose1, bool win, int* money, char choose, bool (*tmp)(int *, int *, char, bool, int* )) {
+  while (true) {
+    printf("Что будем делать?\n"
+	   "1.Battle ");
+    std::cin >> choose;
+    if(choose = '1') {
+      tmp(player, enemy, choose1, win, money);
+    }
+  }
+}
 bool Battle(int player[], int enemy[], char choose, bool win, int* money) {
   while (true) {
   srand (time(NULL));
