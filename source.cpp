@@ -21,7 +21,7 @@ bool (*B)(int *, int *, char, bool, int*) = Battle;
 int (*pE)(int *, int *, int *) = Enemy;
 int (*p)(int*,int*,int*, int*) = Player;
 //char (*pC)(char *) = Menu;
-void (*pM)(int*, int*, char, bool, int*, char, bool (*tmp)(int*, int*, char, bool, int* ));
+void (*pM)(int*, int*, char, bool, int*, char, bool (*tmp)(int*, int*, char, bool, int* )) = Menu;
 char choose;
 char* chP = &choose;
 bool victory;
