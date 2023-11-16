@@ -49,7 +49,7 @@ int main() {
   
   while (true) {
     //Battle(player, enemy, choose, victory, mP);
-    pM(player, enemy, choose, victory, mP, choose, B);
+    pM(player, enemy, choose, victory, mP, choose, B); //segmentation fault (reason: B)
   }
   return 0; 
 }
