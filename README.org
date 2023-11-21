@@ -1,20 +1,19 @@
 * DONE Create some 'structure' for our player
 ** DONE Create function to init player
 ** DONE Create function to init enemy 
-*** DONE Create structure for enemy
+** DONE Create structure for enemy
 *** DONE Create battle system
-**** DONE Create money system
-***** TODO Create "CreateEnemy" function
-***** TODO Create "CreatePlayer" function
-****** TODO Create bussiness system
-****** TODO Create save-game
+*** DONE Create money system
+*** TODO Create "CreateEnemy" function
+**** TODO Create "CreatePlayer" function
+**** TODO Create bussiness system
+**** TODO Create save-game
 
 [[https://github.com/unixiscool][My github account]]
 
-#+begin_src
-~source.cpp line 24-29: some 'structure' for our player
-#+end_src
-
 #+begin_src 
 How to build project -> g++ source.cpp function.cpp header.h -o bin
+#+end_src
+#+begin_src
+if nix -> nix build
 #+end_src
