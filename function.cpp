@@ -1,6 +1,4 @@
 #include "header.h"
-#include <cstdio>
-
 int Player(int *health, int *energy, int *count, int* player_D) { return (*health, *energy, *count, *player_D); }
 
 int Enemy(int *health, int *energy, int *count) {return (*health, *energy, *count);  }
